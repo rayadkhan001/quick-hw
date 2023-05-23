@@ -1,0 +1,175 @@
+/*common start*/
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #102757;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 15px 0;
+	border-bottom: 3px solid #eeeeee;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: 10%;
+	/*border: 1px solid yellow;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 55%;
+	/*border: 1px solid orange;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: block;
+	padding: 0px 22px;
+	color: #102757;
+	text-decoration: none;
+	transition: .33s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #000aff;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 70px 0;
+}
+.container2{
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.b-h1{
+	margin: 0px;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 75px;
+}
+.b-h1 span{
+	color: #008aff;
+}
+.b-p{
+	margin: 10px 0 15px;
+	line-height: 25px;
+}
+.b-img{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid orange;*/
+}
+.b-img img{
+	width: 100%;
+}
+/*banner end*/
+/*feature start*/
+.feature{
+	padding-bottom: 70px;
+}
+.f-left{
+	width: 48%;
+	/*border: 1px solid orange;*/
+	float: left;
+	text-align: right;
+}
+.f-left h2{
+	margin: 0;
+	font-size: 45px;
+	font-weight: 700;
+	color: #f15767;
+}
+.f-left p{
+	margin: 5px 1px 0;
+	line-height: 25px;
+}
+.f-right{
+	width: 48%;
+	/*border: 1px solid red;*/
+	float: right;
+	text-align: left;
+}
+.f-right h1{
+	margin: 0;
+	font-size: 46px;
+	font-weight: 700;
+}
+/*feature end*/
+/*service start*/
+.service{
+	padding-bottom: 70px;
+
+}
+.s-service{
+	margin: 1%;
+	float: left;
+	width: 31.6%;
+	/*border: 1px solid;*/
+	padding: 50px 20px 60px;
+	box-sizing: border-box;
+}
+.s-service:first-child{
+	background-color: #fdebed;
+	margin-left: 0;
+}
+.s-service:nth-child(2){
+	background-color: #ebf9f4;
+}
+.s-service:last-child{
+	margin-right: 1.2%;
+	background-color: #fff7e8;
+}
+.s-img{}
+.s-img img{
+	width: 100%;
+}
+.s-h2{
+	margin: 20px 0;
+	font-size: 26px;
+	font-weight: 700;
+}
+.s-p{
+	margin: 0;
+	line-height: 25px;
+}
+/*service end*/
+/*footer start*/
+footer{
+	background-color: #008aff;
+	padding: 50px 0;
+}
+footer p{
+	text-align: center;
+	color: white;
+}
+footer p a{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+/*footer end*/
